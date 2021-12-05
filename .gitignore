@@ -1,0 +1,7 @@
+pyvenv.cfg
+.vscode/
+.idea/
+GPT2/.env/
+__pycache__
+my_env/
+Scripts/

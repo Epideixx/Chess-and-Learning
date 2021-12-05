@@ -1,0 +1,28 @@
+2021-04-27 15:49:06,644 INFO    MainThread:10484 [wandb_setup.py:_flush():69] setting env: {}
+2021-04-27 15:49:06,645 INFO    MainThread:10484 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-04-27 15:49:06,645 INFO    MainThread:10484 [wandb_setup.py:_flush():69] setting login settings: {'mode': 'offline'}
+2021-04-27 15:49:06,646 INFO    MainThread:10484 [wandb_init.py:_log_setup():336] Logging user logs to C:\Users\HP\Desktop\Projet_échecs\Tic-Tac-Tic-Tac-Toe\Version parallèle\wandb\offline-run-20210427_154906-17dwzi7r\logs\debug.log
+2021-04-27 15:49:06,646 INFO    MainThread:10484 [wandb_init.py:_log_setup():337] Logging internal logs to C:\Users\HP\Desktop\Projet_échecs\Tic-Tac-Tic-Tac-Toe\Version parallèle\wandb\offline-run-20210427_154906-17dwzi7r\logs\debug-internal.log
+2021-04-27 15:49:06,647 INFO    MainThread:10484 [wandb_init.py:init():369] calling init triggers
+2021-04-27 15:49:06,647 INFO    MainThread:10484 [wandb_init.py:init():374] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.001, 'epochs': 1, 'batch_size': 256, 'filters': 128, 'residualDepth': 10}
+2021-04-27 15:49:06,647 INFO    MainThread:10484 [wandb_init.py:init():418] starting backend
+2021-04-27 15:49:06,647 INFO    MainThread:10484 [backend.py:_multiprocessing_setup():69] multiprocessing start_methods=spawn, using: spawn
+2021-04-27 15:49:06,661 INFO    MainThread:10484 [backend.py:ensure_launched():123] starting backend process...
+2021-04-27 15:49:07,000 INFO    MainThread:10484 [backend.py:ensure_launched():127] started backend process with pid: 14436
+2021-04-27 15:49:07,001 INFO    MainThread:10484 [wandb_init.py:init():423] backend started and connected
+2021-04-27 15:49:07,002 INFO    MainThread:10484 [wandb_init.py:init():465] updated telemetry
+2021-04-27 15:49:07,003 INFO    MainThread:10484 [wandb_init.py:init():522] starting run threads in backend
+2021-04-27 15:49:10,795 INFO    MainThread:10484 [wandb_run.py:_console_start():1524] atexit reg
+2021-04-27 15:49:10,795 INFO    MainThread:10484 [wandb_run.py:_redirect():1371] redirect: SettingsConsole.WRAP
+2021-04-27 15:49:10,796 INFO    MainThread:10484 [wandb_run.py:_redirect():1414] Wrapping output streams.
+2021-04-27 15:49:10,796 INFO    MainThread:10484 [wandb_run.py:_redirect():1438] Redirects installed.
+2021-04-27 15:49:10,796 INFO    MainThread:10484 [wandb_init.py:init():546] run started, returning control to user process
+2021-04-27 15:55:04,686 INFO    MainThread:10484 [wandb_run.py:_atexit_cleanup():1494] got exitcode: 255
+2021-04-27 15:55:04,687 INFO    MainThread:10484 [wandb_run.py:_restore():1466] restore
+2021-04-27 15:55:04,759 INFO    MainThread:10484 [wandb_run.py:_wait_for_finish():1616] got exit ret: 
+2021-04-27 15:55:04,866 INFO    MainThread:10484 [wandb_run.py:_wait_for_finish():1616] got exit ret: 
+2021-04-27 15:55:04,974 INFO    MainThread:10484 [wandb_run.py:_wait_for_finish():1616] got exit ret: done: true
+exit_result {
+}
+

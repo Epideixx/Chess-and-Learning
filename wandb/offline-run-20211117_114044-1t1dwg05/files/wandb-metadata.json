@@ -1,0 +1,24 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.9.0",
+    "heartbeatAt": "2021-11-17T10:40:47.756419",
+    "startedAt": "2021-11-17T10:40:44.592326",
+    "docker": null,
+    "gpu": "GeForce GTX 1650",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "c:\\Users\\jonat\\OneDrive\\Documents\\CentraleSupelec\\2A\\Echecs2A\\echecs_et_apprentissage\\Train.py",
+    "codePath": "Train.py",
+    "git": {
+        "remote": "https://gitlab-student.centralesupelec.fr/2019boucherb2/echecs_et_apprentissage.git",
+        "commit": "130bc9c03733015afeb648061b4ac60bff7620ab"
+    },
+    "email": "jonathan.poli@student-cs.fr",
+    "root": "C:/Users/jonat/OneDrive/Documents/CentraleSupelec/2A/Echecs2A/echecs_et_apprentissage",
+    "host": "DESKTOP-3636OQ0",
+    "username": "jonat",
+    "executable": "C:\\Users\\jonat\\AppData\\Local\\Programs\\Python\\Python39\\python.exe"
+}

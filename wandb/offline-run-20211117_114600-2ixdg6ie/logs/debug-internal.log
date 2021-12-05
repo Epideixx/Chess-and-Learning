@@ -1,0 +1,77 @@
+2021-11-17 11:46:01,739 INFO    MainThread:26300 [internal.py:wandb_internal():86] W&B internal server running at pid: 26300, started at: 2021-11-17 11:46:01.730406
+2021-11-17 11:46:01,741 INFO    WriterThread:26300 [datastore.py:open_for_write():77] open: C:\Users\jonat\OneDrive\Documents\CentraleSupelec\2A\Echecs2A\echecs_et_apprentissage\wandb\offline-run-20211117_114600-2ixdg6ie\run-2ixdg6ie.wandb
+2021-11-17 11:46:01,741 DEBUG   HandlerThread:26300 [handler.py:handle_request():126] handle_request: run_start
+2021-11-17 11:46:03,563 DEBUG   HandlerThread:26300 [meta.py:__init__():40] meta init
+2021-11-17 11:46:03,564 DEBUG   HandlerThread:26300 [meta.py:__init__():54] meta init done
+2021-11-17 11:46:03,564 DEBUG   HandlerThread:26300 [meta.py:probe():211] probe
+2021-11-17 11:46:03,587 DEBUG   HandlerThread:26300 [meta.py:_setup_git():201] setup git
+2021-11-17 11:46:03,666 DEBUG   HandlerThread:26300 [meta.py:_setup_git():208] setup git done
+2021-11-17 11:46:03,667 DEBUG   HandlerThread:26300 [meta.py:_save_pip():58] save pip
+2021-11-17 11:46:03,668 DEBUG   HandlerThread:26300 [meta.py:_save_pip():72] save pip done
+2021-11-17 11:46:03,668 DEBUG   HandlerThread:26300 [meta.py:probe():249] probe done
+2021-11-17 11:46:04,227 DEBUG   HandlerThread:26300 [handler.py:handle_request():126] handle_request: poll_exit
+2021-11-17 11:46:04,227 DEBUG   SenderThread:26300 [sender.py:send():182] send: exit
+2021-11-17 11:46:04,228 INFO    SenderThread:26300 [sender.py:send_exit():291] handling exit code: 1
+2021-11-17 11:46:04,228 INFO    SenderThread:26300 [sender.py:send_exit():293] handling runtime: 2
+2021-11-17 11:46:04,229 INFO    SenderThread:26300 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-11-17 11:46:04,229 INFO    SenderThread:26300 [sender.py:send_exit():303] send defer
+2021-11-17 11:46:04,229 DEBUG   SenderThread:26300 [sender.py:send_request():196] send_request: poll_exit
+2021-11-17 11:46:04,229 DEBUG   HandlerThread:26300 [handler.py:handle_request():126] handle_request: defer
+2021-11-17 11:46:04,229 INFO    HandlerThread:26300 [handler.py:handle_request_defer():143] handle defer: 0
+2021-11-17 11:46:04,230 DEBUG   SenderThread:26300 [sender.py:send_request():196] send_request: defer
+2021-11-17 11:46:04,230 INFO    SenderThread:26300 [sender.py:send_request_defer():312] handle sender defer: 0
+2021-11-17 11:46:04,230 INFO    SenderThread:26300 [sender.py:transition_state():316] send defer: 1
+2021-11-17 11:46:04,230 DEBUG   HandlerThread:26300 [handler.py:handle_request():126] handle_request: defer
+2021-11-17 11:46:04,230 INFO    HandlerThread:26300 [handler.py:handle_request_defer():143] handle defer: 1
+2021-11-17 11:46:04,325 DEBUG   SenderThread:26300 [sender.py:send_request():196] send_request: defer
+2021-11-17 11:46:04,325 INFO    SenderThread:26300 [sender.py:send_request_defer():312] handle sender defer: 1
+2021-11-17 11:46:04,325 INFO    SenderThread:26300 [sender.py:transition_state():316] send defer: 2
+2021-11-17 11:46:04,326 DEBUG   HandlerThread:26300 [handler.py:handle_request():126] handle_request: defer
+2021-11-17 11:46:04,326 INFO    HandlerThread:26300 [handler.py:handle_request_defer():143] handle defer: 2
+2021-11-17 11:46:04,327 DEBUG   SenderThread:26300 [sender.py:send_request():196] send_request: defer
+2021-11-17 11:46:04,327 INFO    SenderThread:26300 [sender.py:send_request_defer():312] handle sender defer: 2
+2021-11-17 11:46:04,327 INFO    SenderThread:26300 [sender.py:transition_state():316] send defer: 3
+2021-11-17 11:46:04,327 DEBUG   HandlerThread:26300 [handler.py:handle_request():126] handle_request: defer
+2021-11-17 11:46:04,327 INFO    HandlerThread:26300 [handler.py:handle_request_defer():143] handle defer: 3
+2021-11-17 11:46:04,327 DEBUG   SenderThread:26300 [sender.py:send_request():196] send_request: defer
+2021-11-17 11:46:04,327 INFO    SenderThread:26300 [sender.py:send_request_defer():312] handle sender defer: 3
+2021-11-17 11:46:04,327 INFO    SenderThread:26300 [sender.py:transition_state():316] send defer: 4
+2021-11-17 11:46:04,327 DEBUG   HandlerThread:26300 [handler.py:handle_request():126] handle_request: defer
+2021-11-17 11:46:04,327 INFO    HandlerThread:26300 [handler.py:handle_request_defer():143] handle defer: 4
+2021-11-17 11:46:04,327 DEBUG   SenderThread:26300 [sender.py:send_request():196] send_request: defer
+2021-11-17 11:46:04,328 INFO    SenderThread:26300 [sender.py:send_request_defer():312] handle sender defer: 4
+2021-11-17 11:46:04,328 INFO    SenderThread:26300 [sender.py:transition_state():316] send defer: 5
+2021-11-17 11:46:04,328 DEBUG   HandlerThread:26300 [handler.py:handle_request():126] handle_request: defer
+2021-11-17 11:46:04,328 INFO    HandlerThread:26300 [handler.py:handle_request_defer():143] handle defer: 5
+2021-11-17 11:46:04,328 DEBUG   SenderThread:26300 [sender.py:send_request():196] send_request: defer
+2021-11-17 11:46:04,328 INFO    SenderThread:26300 [sender.py:send_request_defer():312] handle sender defer: 5
+2021-11-17 11:46:04,328 INFO    SenderThread:26300 [sender.py:transition_state():316] send defer: 6
+2021-11-17 11:46:04,328 DEBUG   HandlerThread:26300 [handler.py:handle_request():126] handle_request: defer
+2021-11-17 11:46:04,328 INFO    HandlerThread:26300 [handler.py:handle_request_defer():143] handle defer: 6
+2021-11-17 11:46:04,329 DEBUG   SenderThread:26300 [sender.py:send_request():196] send_request: defer
+2021-11-17 11:46:04,329 INFO    SenderThread:26300 [sender.py:send_request_defer():312] handle sender defer: 6
+2021-11-17 11:46:04,329 INFO    SenderThread:26300 [sender.py:transition_state():316] send defer: 7
+2021-11-17 11:46:04,329 DEBUG   HandlerThread:26300 [handler.py:handle_request():126] handle_request: defer
+2021-11-17 11:46:04,329 INFO    HandlerThread:26300 [handler.py:handle_request_defer():143] handle defer: 7
+2021-11-17 11:46:04,329 DEBUG   SenderThread:26300 [sender.py:send_request():196] send_request: defer
+2021-11-17 11:46:04,329 INFO    SenderThread:26300 [sender.py:send_request_defer():312] handle sender defer: 7
+2021-11-17 11:46:04,329 INFO    SenderThread:26300 [sender.py:transition_state():316] send defer: 8
+2021-11-17 11:46:04,329 DEBUG   HandlerThread:26300 [handler.py:handle_request():126] handle_request: defer
+2021-11-17 11:46:04,330 INFO    HandlerThread:26300 [handler.py:handle_request_defer():143] handle defer: 8
+2021-11-17 11:46:04,330 DEBUG   SenderThread:26300 [sender.py:send_request():196] send_request: defer
+2021-11-17 11:46:04,330 INFO    SenderThread:26300 [sender.py:send_request_defer():312] handle sender defer: 8
+2021-11-17 11:46:04,330 INFO    SenderThread:26300 [sender.py:transition_state():316] send defer: 9
+2021-11-17 11:46:04,330 DEBUG   SenderThread:26300 [sender.py:send():182] send: final
+2021-11-17 11:46:04,330 DEBUG   HandlerThread:26300 [handler.py:handle_request():126] handle_request: defer
+2021-11-17 11:46:04,330 INFO    HandlerThread:26300 [handler.py:handle_request_defer():143] handle defer: 9
+2021-11-17 11:46:04,331 DEBUG   SenderThread:26300 [sender.py:send_request():196] send_request: defer
+2021-11-17 11:46:04,331 INFO    SenderThread:26300 [sender.py:send_request_defer():312] handle sender defer: 9
+2021-11-17 11:46:04,334 DEBUG   HandlerThread:26300 [handler.py:handle_request():126] handle_request: poll_exit
+2021-11-17 11:46:04,334 DEBUG   SenderThread:26300 [sender.py:send_request():196] send_request: poll_exit
+2021-11-17 11:46:04,335 DEBUG   HandlerThread:26300 [handler.py:handle_request():126] handle_request: get_summary
+2021-11-17 11:46:04,335 DEBUG   HandlerThread:26300 [handler.py:handle_request():126] handle_request: sampled_history
+2021-11-17 11:46:04,336 DEBUG   HandlerThread:26300 [handler.py:handle_request():126] handle_request: shutdown
+2021-11-17 11:46:04,336 INFO    HandlerThread:26300 [handler.py:finish():683] shutting down handler
+2021-11-17 11:46:05,337 INFO    SenderThread:26300 [sender.py:finish():979] shutting down sender
+2021-11-17 11:46:05,337 INFO    WriterThread:26300 [datastore.py:close():281] close: C:\Users\jonat\OneDrive\Documents\CentraleSupelec\2A\Echecs2A\echecs_et_apprentissage\wandb\offline-run-20211117_114600-2ixdg6ie\run-2ixdg6ie.wandb
+2021-11-17 11:46:05,340 INFO    MainThread:26300 [internal.py:handle_exit():76] Internal process exited

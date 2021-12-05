@@ -1,0 +1,54 @@
+[32m2021-11-17 11:38:11[39m [35mDESKTOP-3636OQ0[39m [34m__main__[16856][39m [1mINFO[22m Iteration #0
+Self Play:   0%|                            | 0/256 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "c:\Users\jonat\OneDrive\Documents\CentraleSupelec\2A\Echecs2A\echecs_et_apprentissage\Train.py", line 277, in <module>
+    main()
+  File "c:\Users\jonat\OneDrive\Documents\CentraleSupelec\2A\Echecs2A\echecs_et_apprentissage\Train.py", line 42, in main
+    train()
+  File "c:\Users\jonat\OneDrive\Documents\CentraleSupelec\2A\Echecs2A\echecs_et_apprentissage\Train.py", line 210, in train
+    iterationTrainExamples = generate_data(NN)
+  File "c:\Users\jonat\OneDrive\Documents\CentraleSupelec\2A\Echecs2A\echecs_et_apprentissage\Train.py", line 91, in generate_data
+    pi, v = NN.predictBatch(boardsToPredict)
+  File "c:\Users\jonat\OneDrive\Documents\CentraleSupelec\2A\Echecs2A\echecs_et_apprentissage\Models.py", line 71, in predictBatch
+    pi, v = self.prediction(numpyBoards)  # Prediction for every board
+  File "c:\Users\jonat\OneDrive\Documents\CentraleSupelec\2A\Echecs2A\echecs_et_apprentissage\Models.py", line 214, in prediction
+    return self.model.predict(numpyBoards)[:2]
+  File "C:\Users\jonat\AppData\Local\Programs\Python\Python39\lib\site-packages\keras\engine\training.py", line 1751, in predict
+    tmp_batch_outputs = self.predict_function(iterator)
+  File "C:\Users\jonat\AppData\Local\Programs\Python\Python39\lib\site-packages\tensorflow\python\eager\def_function.py", line 885, in __call__
+    result = self._call(*args, **kwds)
+  File "C:\Users\jonat\AppData\Local\Programs\Python\Python39\lib\site-packages\tensorflow\python\eager\def_function.py", line 933, in _call
+    self._initialize(args, kwds, add_initializers_to=initializers)
+  File "C:\Users\jonat\AppData\Local\Programs\Python\Python39\lib\site-packages\tensorflow\python\eager\def_function.py", line 759, in _initialize
+    self._stateful_fn._get_concrete_function_internal_garbage_collected(  # pylint: disable=protected-access
+  File "C:\Users\jonat\AppData\Local\Programs\Python\Python39\lib\site-packages\tensorflow\python\eager\function.py", line 3066, in _get_concrete_function_internal_garbage_collected
+    graph_function, _ = self._maybe_define_function(args, kwargs)
+  File "C:\Users\jonat\AppData\Local\Programs\Python\Python39\lib\site-packages\tensorflow\python\eager\function.py", line 3463, in _maybe_define_function
+    graph_function = self._create_graph_function(args, kwargs)
+  File "C:\Users\jonat\AppData\Local\Programs\Python\Python39\lib\site-packages\tensorflow\python\eager\function.py", line 3298, in _create_graph_function
+    func_graph_module.func_graph_from_py_func(
+  File "C:\Users\jonat\AppData\Local\Programs\Python\Python39\lib\site-packages\tensorflow\python\framework\func_graph.py", line 1007, in func_graph_from_py_func
+    func_outputs = python_func(*func_args, **func_kwargs)
+  File "C:\Users\jonat\AppData\Local\Programs\Python\Python39\lib\site-packages\tensorflow\python\eager\def_function.py", line 668, in wrapped_fn
+    out = weak_wrapped_fn().__wrapped__(*args, **kwds)
+  File "C:\Users\jonat\AppData\Local\Programs\Python\Python39\lib\site-packages\tensorflow\python\framework\func_graph.py", line 994, in wrapper
+    raise e.ag_error_metadata.to_exception(e)
+ValueError: in user code:
+    C:\Users\jonat\AppData\Local\Programs\Python\Python39\lib\site-packages\keras\engine\training.py:1586 predict_function  *
+        return step_function(self, iterator)
+    C:\Users\jonat\AppData\Local\Programs\Python\Python39\lib\site-packages\keras\engine\training.py:1576 step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    C:\Users\jonat\AppData\Local\Programs\Python\Python39\lib\site-packages\tensorflow\python\distribute\distribute_lib.py:1286 run
+        return self._extended.call_for_each_replica(fn, args=args, kwargs=kwargs)
+    C:\Users\jonat\AppData\Local\Programs\Python\Python39\lib\site-packages\tensorflow\python\distribute\distribute_lib.py:2849 call_for_each_replica
+        return self._call_for_each_replica(fn, args, kwargs)
+    C:\Users\jonat\AppData\Local\Programs\Python\Python39\lib\site-packages\tensorflow\python\distribute\distribute_lib.py:3632 _call_for_each_replica
+        return fn(*args, **kwargs)
+    C:\Users\jonat\AppData\Local\Programs\Python\Python39\lib\site-packages\keras\engine\training.py:1569 run_step  **
+        outputs = model.predict_step(data)
+    C:\Users\jonat\AppData\Local\Programs\Python\Python39\lib\site-packages\keras\engine\training.py:1537 predict_step
+        return self(x, training=False)
+    C:\Users\jonat\AppData\Local\Programs\Python\Python39\lib\site-packages\keras\engine\base_layer.py:1020 __call__
+        input_spec.assert_input_compatibility(self.input_spec, inputs, self.name)
+    C:\Users\jonat\AppData\Local\Programs\Python\Python39\lib\site-packages\keras\engine\input_spec.py:266 assert_input_compatibility
+        raise ValueError('Input ' + str(input_index) +
+    ValueError: Input 0 is incompatible with layer model: expected shape=(None, 7, 6, 2), found shape=(32, 9, 9, 3)

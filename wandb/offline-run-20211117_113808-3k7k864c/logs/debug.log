@@ -1,0 +1,27 @@
+2021-11-17 11:38:08,665 INFO    MainThread:16856 [wandb_setup.py:_flush():69] setting env: {}
+2021-11-17 11:38:08,666 INFO    MainThread:16856 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-11-17 11:38:08,666 INFO    MainThread:16856 [wandb_setup.py:_flush():69] setting login settings: {'mode': 'offline'}
+2021-11-17 11:38:08,666 INFO    MainThread:16856 [wandb_init.py:_log_setup():342] Logging user logs to C:\Users\jonat\OneDrive\Documents\CentraleSupelec\2A\Echecs2A\echecs_et_apprentissage\wandb\offline-run-20211117_113808-3k7k864c\logs\debug.log
+2021-11-17 11:38:08,666 INFO    MainThread:16856 [wandb_init.py:_log_setup():343] Logging internal logs to C:\Users\jonat\OneDrive\Documents\CentraleSupelec\2A\Echecs2A\echecs_et_apprentissage\wandb\offline-run-20211117_113808-3k7k864c\logs\debug-internal.log
+2021-11-17 11:38:08,666 INFO    MainThread:16856 [wandb_init.py:init():375] calling init triggers
+2021-11-17 11:38:08,666 INFO    MainThread:16856 [wandb_init.py:init():380] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.001, 'epochs': 1, 'batch_size': 256, 'filters': 256, 'residualDepth': 10}
+2021-11-17 11:38:08,666 INFO    MainThread:16856 [wandb_init.py:init():424] starting backend
+2021-11-17 11:38:08,667 INFO    MainThread:16856 [backend.py:_multiprocessing_setup():70] multiprocessing start_methods=spawn, using: spawn
+2021-11-17 11:38:08,671 INFO    MainThread:16856 [backend.py:ensure_launched():135] starting backend process...
+2021-11-17 11:38:08,755 INFO    MainThread:16856 [backend.py:ensure_launched():139] started backend process with pid: 23740
+2021-11-17 11:38:08,756 INFO    MainThread:16856 [wandb_init.py:init():429] backend started and connected
+2021-11-17 11:38:08,757 INFO    MainThread:16856 [wandb_init.py:init():477] updated telemetry
+2021-11-17 11:38:08,758 INFO    MainThread:16856 [wandb_init.py:init():540] starting run threads in backend
+2021-11-17 11:38:11,904 INFO    MainThread:16856 [wandb_run.py:_console_start():1601] atexit reg
+2021-11-17 11:38:11,905 INFO    MainThread:16856 [wandb_run.py:_redirect():1475] redirect: SettingsConsole.WRAP
+2021-11-17 11:38:11,905 INFO    MainThread:16856 [wandb_run.py:_redirect():1512] Wrapping output streams.
+2021-11-17 11:38:11,906 INFO    MainThread:16856 [wandb_run.py:_redirect():1536] Redirects installed.
+2021-11-17 11:38:11,906 INFO    MainThread:16856 [wandb_init.py:init():565] run started, returning control to user process
+2021-11-17 11:38:12,160 INFO    MainThread:16856 [wandb_run.py:_atexit_cleanup():1571] got exitcode: 1
+2021-11-17 11:38:12,161 INFO    MainThread:16856 [wandb_run.py:_restore():1543] restore
+2021-11-17 11:38:12,953 INFO    MainThread:16856 [wandb_run.py:_wait_for_finish():1693] got exit ret: 
+2021-11-17 11:38:13,060 INFO    MainThread:16856 [wandb_run.py:_wait_for_finish():1693] got exit ret: done: true
+exit_result {
+}
+

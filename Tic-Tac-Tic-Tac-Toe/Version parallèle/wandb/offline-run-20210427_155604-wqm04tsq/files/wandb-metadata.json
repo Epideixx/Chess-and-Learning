@@ -1,0 +1,22 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.8.6",
+    "heartbeatAt": "2021-04-27T13:56:07.319008",
+    "startedAt": "2021-04-27T13:56:04.288661",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "Train.py",
+    "codePath": "Tic-Tac-Tic-Tac-Toe\\Version parall\u00e8le\\Train.py",
+    "git": {
+        "remote": "git@gitlab-student.centralesupelec.fr:2019boucherb2/echecs_et_apprentissage.git",
+        "commit": "ea2bd8cedb6ee3f07a116d3b8b1a7c06608c8f1b"
+    },
+    "email": "aymeric.ducatez@student-cs.fr",
+    "root": "C:/Users/HP/Desktop/Projet_\u00e9checs",
+    "host": "DESKTOP-VDDANB7",
+    "username": "HP",
+    "executable": "C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python38\\python.exe"
+}

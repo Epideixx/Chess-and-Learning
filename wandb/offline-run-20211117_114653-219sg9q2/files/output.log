@@ -1,0 +1,29 @@
+[32m2021-11-17 11:46:56[39m [35mDESKTOP-3636OQ0[39m [34m__main__[18056][39m [1mINFO[22m Iteration #0
+Self Play:   0%|                            | 0/256 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "c:\Users\jonat\OneDrive\Documents\CentraleSupelec\2A\Echecs2A\echecs_et_apprentissage\Train.py", line 230, in <module>
+    main()
+  File "c:\Users\jonat\OneDrive\Documents\CentraleSupelec\2A\Echecs2A\echecs_et_apprentissage\Train.py", line 38, in main
+    train()
+  File "c:\Users\jonat\OneDrive\Documents\CentraleSupelec\2A\Echecs2A\echecs_et_apprentissage\Train.py", line 170, in train
+    iterationTrainExamples = generate_data(NN)
+  File "c:\Users\jonat\OneDrive\Documents\CentraleSupelec\2A\Echecs2A\echecs_et_apprentissage\Train.py", line 72, in generate_data
+    pi, v = NN.predictBatch(boardsToPredict)
+  File "c:\Users\jonat\OneDrive\Documents\CentraleSupelec\2A\Echecs2A\echecs_et_apprentissage\Models.py", line 52, in predictBatch
+    pi, v = self.prediction(numpyBoards)
+  File "c:\Users\jonat\OneDrive\Documents\CentraleSupelec\2A\Echecs2A\echecs_et_apprentissage\Models.py", line 150, in prediction
+    return self.model.predict(numpyBoards)[:2]
+  File "C:\Users\jonat\AppData\Local\Programs\Python\Python39\lib\site-packages\keras\engine\training.py", line 1751, in predict
+    tmp_batch_outputs = self.predict_function(iterator)
+  File "C:\Users\jonat\AppData\Local\Programs\Python\Python39\lib\site-packages\tensorflow\python\eager\def_function.py", line 885, in __call__
+    result = self._call(*args, **kwds)
+  File "C:\Users\jonat\AppData\Local\Programs\Python\Python39\lib\site-packages\tensorflow\python\eager\def_function.py", line 924, in _call
+    results = self._stateful_fn(*args, **kwds)
+  File "C:\Users\jonat\AppData\Local\Programs\Python\Python39\lib\site-packages\tensorflow\python\eager\function.py", line 3039, in __call__
+    return graph_function._call_flat(
+  File "C:\Users\jonat\AppData\Local\Programs\Python\Python39\lib\site-packages\tensorflow\python\eager\function.py", line 1963, in _call_flat
+    return self._build_call_outputs(self._inference_function.call(
+  File "C:\Users\jonat\AppData\Local\Programs\Python\Python39\lib\site-packages\tensorflow\python\eager\function.py", line 591, in call
+    outputs = execute.execute(
+  File "C:\Users\jonat\AppData\Local\Programs\Python\Python39\lib\site-packages\tensorflow\python\eager\execute.py", line 59, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+KeyboardInterrupt
